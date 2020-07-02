@@ -1,0 +1,87 @@
+*{
+
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+
+	font-family: 'Open Sans', sans-serif;
+	background: url(../img/background1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.container{
+
+	width: 600px;
+    margin: 10% auto;
+
+}
+
+.logen-form{
+    background-color: #0090d459;
+    padding: 25px;
+    border-radius: 18px;
+
+}
+
+.logen-form h2{
+
+	text-align: center;
+    color: #ffff;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 10px;
+    text-shadow: 2px 2px 2px black;
+	
+}
+
+.logen-form img{
+
+	margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+.from-control{
+
+    width: 98%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 8px;
+
+
+}
+
+.btn{
+
+	background: darkcyan;
+    margin: 0 auto;
+    display: block;
+    color: #ffff;
+    padding: 10px 30px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 50px;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+}
+
+.btn:hover{
+
+    box-shadow: 1px 1px 10px 1px #f9f7f7;
+    cursor: pointer;
+
+}
+
+
+
+
+

@@ -1,0 +1,87 @@
+*{
+
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: url(../img/background2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.container{
+
+	width:600px;
+	margin: 10% auto;
+}
+
+.registration-form{
+	background-color: #0090d459;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 2px black;
+}
+
+.registration-form h2 {
+	color: white;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px black;
+    margin-bottom: 15px;	
+}
+
+.registration-form img {
+    display: block;
+    margin: 30px auto;
+    width: 150px;
+    height: 150px;
+	
+}
+
+.form-control {
+	margin-bottom: 10px;
+    width: 97%;
+    height: 20px;
+    padding: 5px;
+
+}
+
+.btn{
+
+	background: #0090d4de;
+    margin: 30px auto;
+    display: block;
+    color: #fff;
+    padding: 6px 11px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    font-weight: bold;
+}
+
+.btn:hover{
+	box-shadow: -3px 3px 4px #e1e1e1;
+	cursor: pointer;
+}
+
+.btnr{
+
+    background: #0090d4de;
+    margin: 30px auto;
+    color: #ffffff;
+    padding: 6px 11px;
+    text-transform: capitalize;
+    margin-bottom: 45px;
+    font-weight: bold;
+
+}
+
+.btnr:hover {
+    cursor: pointer;
+}
+  
+
